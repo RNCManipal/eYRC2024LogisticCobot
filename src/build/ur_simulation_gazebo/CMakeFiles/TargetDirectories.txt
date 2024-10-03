@@ -1,0 +1,9 @@
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/uninstall.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/ur_simulation_gazebo_uninstall.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/test.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/edit_cache.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/rebuild_cache.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/list_install_components.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/install.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/install/local.dir
+/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo/CMakeFiles/install/strip.dir

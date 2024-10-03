@@ -1,0 +1,9 @@
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/uninstall.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/ebot_description_uninstall.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/test.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/edit_cache.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/rebuild_cache.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/list_install_components.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/install.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/install/local.dir
+/home/ojasvi/colcon_ws2/src/build/ebot_description/CMakeFiles/install/strip.dir

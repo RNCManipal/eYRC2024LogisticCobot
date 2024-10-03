@@ -1,0 +1,6 @@
+Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ebot_nav2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ebot_nav2
+Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ebot_nav2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ebot_nav2
+Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ebot_nav2 -- -j12 -l12
+Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ebot_nav2 -- -j12 -l12
+Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ebot_nav2
+Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ebot_nav2

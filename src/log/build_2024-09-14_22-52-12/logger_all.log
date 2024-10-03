@@ -1,0 +1,722 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77abc1444460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77abc141be50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77abc141be50>>)
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.195s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ojasvi/colcon_ws2/src'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_description) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'ebot_description' with type 'ros.ament_cmake' and name 'ebot_description'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ebot_nav2) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'ebot_nav2' with type 'ros.ament_cmake' and name 'ebot_nav2'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(eyantra_warehouse) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'eyantra_warehouse' with type 'ros.ament_cmake' and name 'eyantra_warehouse'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(linkattacher_msgs) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'linkattacher_msgs' with type 'ros.ament_cmake' and name 'linkattacher_msgs'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pymoveit2) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(realsense_gazebo_plugin) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'realsense_gazebo_plugin' with type 'ros.ament_cmake' and name 'realsense_gazebo_plugin'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur5_control) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'ur5_control' with type 'ros.ament_python' and name 'ur5_control'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ur_description) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ur_moveit_config) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ur_simulation_gazebo) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 444 installed packages in /opt/ros/humble
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.276s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ur_description' is in: /opt/ros/humble
+	'ur_moveit_config' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_description ur_moveit_config
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'ebot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/ebot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/ebot_description', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/ebot_description', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'ebot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/ebot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/ebot_nav2', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/ebot_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'eyantra_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'eyantra_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/eyantra_warehouse', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'linkattacher_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'linkattacher_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/linkattacher_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'pymoveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'pymoveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/pymoveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/pymoveit2', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/pymoveit2', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'realsense_gazebo_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'realsense_gazebo_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/realsense_gazebo_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur5_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'ur5_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/ur5_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/ur5_control', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/ur5_control', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/ur_description', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/ur_description', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/ojasvi/colcon_ws2/src/ur_simulation_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.281s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/ur_description' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/ur_description'
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/ebot_description' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/ebot_description'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/ebot_nav2' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/ebot_nav2'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/eyantra_warehouse' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/eyantra_warehouse'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/linkattacher_msgs' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/linkattacher_msgs'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/pymoveit2' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/pymoveit2'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/realsense_gazebo_plugin' with build type 'ament_cmake'
+[0.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/realsense_gazebo_plugin'
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/ur5_control' with build type 'ament_python'
+[0.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/hook/ament_prefix_path.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/hook/ament_prefix_path.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ur_description
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ebot_description -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ebot_description
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ebot_nav2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ebot_nav2
+[0.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/eyantra_warehouse -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/linkattacher_msgs -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/pymoveit2
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin
+[0.527s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ojasvi/colcon_ws2/src/ur5_control'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/ur5_control': PYTHONPATH=/home/ojasvi/colcon_ws2/src/build/ur5_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojasvi/colcon_ws2/src/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ur5_control build --build-base /home/ojasvi/colcon_ws2/src/build/ur5_control/build install --record /home/ojasvi/colcon_ws2/src/build/ur5_control/install.log --single-version-externally-managed install_data
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/ur5_control' returned '0': PYTHONPATH=/home/ojasvi/colcon_ws2/src/build/ur5_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojasvi/colcon_ws2/src/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/ur5_control build --build-base /home/ojasvi/colcon_ws2/src/build/ur5_control/build install --record /home/ojasvi/colcon_ws2/src/build/ur5_control/install.log --single-version-externally-managed install_data
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control' for CMake module files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control/lib'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control/bin'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control/lib/pkgconfig/ur5_control.pc'
+[1.216s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control/lib/python3.10/site-packages'
+[1.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur5_control', 'pythonpath')
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/hook/pythonpath.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/hook/pythonpath.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/hook/pythonpath.sh'
+[1.218s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur5_control/bin'
+[1.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur5_control)
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/package.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/package.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/package.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur5_control/share/ur5_control/package.zsh'
+[1.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur5_control/share/colcon-core/packages/ur5_control)
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/pymoveit2
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/pymoveit2 -- -j12 -l12
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/eyantra_warehouse -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse
+[1.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/eyantra_warehouse -- -j12 -l12
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/eyantra_warehouse -- -j12 -l12
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/eyantra_warehouse
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/pymoveit2 -- -j12 -l12
+[1.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/pymoveit2
+[1.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2' for CMake module files
+[1.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/pymoveit2
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2' for CMake config files
+[1.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/lib'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/bin'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/lib/python3.10/site-packages'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/bin'
+[1.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.sh'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.bash'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[1.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pymoveit2)
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2' for CMake module files
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2' for CMake config files
+[1.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('pymoveit2', 'cmake_prefix_path')
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.ps1'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.dsv'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/hook/cmake_prefix_path.sh'
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/lib'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/bin'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/lib/pkgconfig/pymoveit2.pc'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/lib/python3.10/site-packages'
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/pymoveit2/bin'
+[1.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.dsv'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.sh'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.bash'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/pymoveit2/package.zsh'
+[1.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/pymoveit2/share/colcon-core/packages/pymoveit2)
+[2.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse' for CMake module files
+[2.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/eyantra_warehouse
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse' for CMake config files
+[2.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/bin'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/lib/python3.10/site-packages'
+[2.109s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/bin'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[2.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[2.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eyantra_warehouse)
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse' for CMake module files
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse' for CMake config files
+[2.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('eyantra_warehouse', 'cmake_prefix_path')
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.ps1'
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.dsv'
+[2.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/hook/cmake_prefix_path.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/bin'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/lib/pkgconfig/eyantra_warehouse.pc'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/lib/python3.10/site-packages'
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/bin'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.ps1'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.sh'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.bash'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/eyantra_warehouse/package.zsh'
+[2.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/eyantra_warehouse/share/colcon-core/packages/eyantra_warehouse)
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ebot_nav2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ebot_nav2
+[2.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ebot_nav2 -- -j12 -l12
+[2.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ur_description
+[2.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ur_description -- -j12 -l12
+[2.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ebot_description -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ebot_description
+[2.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ebot_description -- -j12 -l12
+[2.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ebot_nav2 -- -j12 -l12
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ur_description -- -j12 -l12
+[2.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ebot_description -- -j12 -l12
+[2.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ebot_nav2
+[2.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ur_description
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ebot_description
+[2.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_nav2)
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2' for CMake module files
+[2.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ebot_nav2
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2' for CMake config files
+[2.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_nav2', 'cmake_prefix_path')
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.ps1'
+[2.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.dsv'
+[2.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.sh'
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/bin'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/lib/pkgconfig/ebot_nav2.pc'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/lib/python3.10/site-packages'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/bin'
+[2.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.ps1'
+[2.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.dsv'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.sh'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.bash'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.zsh'
+[2.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/colcon-core/packages/ebot_nav2)
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/linkattacher_msgs -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs
+[2.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/linkattacher_msgs -- -j12 -l12
+[2.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_nav2)
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2' for CMake module files
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2' for CMake config files
+[2.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_nav2', 'cmake_prefix_path')
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/hook/cmake_prefix_path.sh'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/bin'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/lib/pkgconfig/ebot_nav2.pc'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/lib/python3.10/site-packages'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/bin'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.sh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.bash'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/ebot_nav2/package.zsh'
+[2.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ebot_nav2/share/colcon-core/packages/ebot_nav2)
+[2.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[2.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ebot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ebot_description
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description' for CMake module files
+[2.607s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description' for CMake config files
+[2.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/bin'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/lib/python3.10/site-packages'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/bin'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.ps1'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.dsv'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.sh'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.bash'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.zsh'
+[2.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ebot_description/share/colcon-core/packages/ebot_description)
+[2.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_description)
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description' for CMake module files
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description' for CMake config files
+[2.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_description', 'cmake_prefix_path')
+[2.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.dsv'
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/hook/cmake_prefix_path.sh'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/bin'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/lib/pkgconfig/ebot_description.pc'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/lib/python3.10/site-packages'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ebot_description/bin'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.ps1'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.dsv'
+[2.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.sh'
+[2.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.bash'
+[2.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ebot_description/share/ebot_description/package.zsh'
+[2.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ebot_description/share/colcon-core/packages/ebot_description)
+[2.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description' for CMake module files
+[2.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ur_description
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description' for CMake config files
+[2.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/lib'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/bin'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/lib/pkgconfig/ur_description.pc'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/lib/python3.10/site-packages'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/bin'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.dsv'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.bash'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.zsh'
+[2.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur_description/share/colcon-core/packages/ur_description)
+[2.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description' for CMake module files
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description' for CMake config files
+[2.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[2.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/lib'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/bin'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/lib/pkgconfig/ur_description.pc'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/lib/python3.10/site-packages'
+[2.853s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_description/bin'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.ps1'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.dsv'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.sh'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.bash'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_description/share/ur_description/package.zsh'
+[2.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur_description/share/colcon-core/packages/ur_description)
+[2.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/ur_moveit_config' with build type 'ament_cmake'
+[2.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/ur_moveit_config'
+[2.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config
+[3.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config
+[3.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ur_moveit_config -- -j12 -l12
+[3.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ur_moveit_config -- -j12 -l12
+[3.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ur_moveit_config
+[3.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[3.754s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config' for CMake module files
+[3.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ur_moveit_config
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config' for CMake config files
+[3.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[3.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[3.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[3.756s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/bin'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/lib/python3.10/site-packages'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/bin'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[3.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[3.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[3.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[3.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config' for CMake module files
+[3.788s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config' for CMake config files
+[3.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[3.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[3.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[3.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/bin'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[3.791s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/lib/python3.10/site-packages'
+[3.791s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/bin'
+[3.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[3.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[3.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[3.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[3.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[3.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ojasvi/colcon_ws2/src/ur_simulation_gazebo' with build type 'ament_cmake'
+[3.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ojasvi/colcon_ws2/src/ur_simulation_gazebo'
+[3.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/realsense_gazebo_plugin -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin
+[3.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin -- -j12 -l12
+[3.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ur_simulation_gazebo -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo
+[4.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/ur_simulation_gazebo -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo
+[4.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo -- -j12 -l12
+[4.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo -- -j12 -l12
+[4.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo
+[4.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[4.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ojasvi/colcon_ws2/src/install/ur_moveit_config:/home/ojasvi/colcon_ws2/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/ur_simulation_gazebo
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo' for CMake module files
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo' for CMake config files
+[4.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[4.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[4.479s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/bin'
+[4.479s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[4.480s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[4.480s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/bin'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[4.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[4.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[4.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[4.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[4.503s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo' for CMake module files
+[4.503s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo' for CMake config files
+[4.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[4.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[4.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[4.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/bin'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/bin'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[4.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[4.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/linkattacher_msgs -- -j12 -l12
+[4.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/linkattacher_msgs
+[5.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs' for CMake module files
+[5.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/linkattacher_msgs
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs' for CMake config files
+[5.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[5.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/lib'
+[5.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[5.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[5.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/bin'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/lib/python3.10/site-packages'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/bin'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[5.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[5.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[5.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[5.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linkattacher_msgs)
+[5.093s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs' for CMake module files
+[5.094s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs' for CMake config files
+[5.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'cmake_prefix_path')
+[5.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.ps1'
+[5.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.dsv'
+[5.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/cmake_prefix_path.sh'
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/lib'
+[5.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('linkattacher_msgs', 'ld_library_path_lib')
+[5.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.ps1'
+[5.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.dsv'
+[5.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/hook/ld_library_path_lib.sh'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/bin'
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/lib/pkgconfig/linkattacher_msgs.pc'
+[5.109s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/lib/python3.10/site-packages'
+[5.109s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/bin'
+[5.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.ps1'
+[5.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv'
+[5.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.sh'
+[5.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.bash'
+[5.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/linkattacher_msgs/package.zsh'
+[5.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/linkattacher_msgs/share/colcon-core/packages/linkattacher_msgs)
+[22.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin -- -j12 -l12
+[22.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin
+[22.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[22.071s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin' for CMake module files
+[22.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/realsense_gazebo_plugin
+[22.072s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin' for CMake config files
+[22.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[22.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[22.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[22.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[22.073s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/lib'
+[22.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[22.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[22.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[22.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[22.074s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/bin'
+[22.074s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[22.074s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[22.074s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/bin'
+[22.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[22.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[22.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[22.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[22.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[22.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[22.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense_gazebo_plugin)
+[22.101s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin' for CMake module files
+[22.101s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin' for CMake config files
+[22.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'cmake_prefix_path')
+[22.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.ps1'
+[22.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.dsv'
+[22.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/cmake_prefix_path.sh'
+[22.102s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/lib'
+[22.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense_gazebo_plugin', 'ld_library_path_lib')
+[22.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.ps1'
+[22.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.dsv'
+[22.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/hook/ld_library_path_lib.sh'
+[22.104s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/bin'
+[22.104s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc'
+[22.104s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/lib/python3.10/site-packages'
+[22.104s] Level 1:colcon.colcon_core.environment:checking '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/bin'
+[22.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.ps1'
+[22.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.dsv'
+[22.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.sh'
+[22.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.bash'
+[22.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.zsh'
+[22.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ojasvi/colcon_ws2/src/install/realsense_gazebo_plugin/share/colcon-core/packages/realsense_gazebo_plugin)
+[22.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.106s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.110s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojasvi/colcon_ws2/src/install/local_setup.ps1'
+[22.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ojasvi/colcon_ws2/src/install/_local_setup_util_ps1.py'
+[22.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojasvi/colcon_ws2/src/install/setup.ps1'
+[22.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojasvi/colcon_ws2/src/install/local_setup.sh'
+[22.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ojasvi/colcon_ws2/src/install/_local_setup_util_sh.py'
+[22.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojasvi/colcon_ws2/src/install/setup.sh'
+[22.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojasvi/colcon_ws2/src/install/local_setup.bash'
+[22.124s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojasvi/colcon_ws2/src/install/setup.bash'
+[22.125s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ojasvi/colcon_ws2/src/install/local_setup.zsh'
+[22.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ojasvi/colcon_ws2/src/install/setup.zsh'
