@@ -1,0 +1,29 @@
+[1.044s] Invoking command in '/home/ojasvi/Desktop/eYRC2024LogisticCobot/src/ur5_control': PYTHONPATH=/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/build install --record /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/install.log --single-version-externally-managed install_data
+[1.267s] running egg_info
+[1.267s] writing ../../build/ur5_control/ur5_control.egg-info/PKG-INFO
+[1.268s] writing dependency_links to ../../build/ur5_control/ur5_control.egg-info/dependency_links.txt
+[1.268s] writing entry points to ../../build/ur5_control/ur5_control.egg-info/entry_points.txt
+[1.268s] writing requirements to ../../build/ur5_control/ur5_control.egg-info/requires.txt
+[1.268s] writing top-level names to ../../build/ur5_control/ur5_control.egg-info/top_level.txt
+[1.270s] reading manifest file '../../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[1.271s] writing manifest file '../../build/ur5_control/ur5_control.egg-info/SOURCES.txt'
+[1.271s] running build
+[1.271s] running build_py
+[1.271s] copying ur5_control/task1b_boiler_plate.py -> /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/build/lib/ur5_control
+[1.271s] running install
+[1.272s] running install_lib
+[1.272s] copying /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/build/lib/ur5_control/task1b_boiler_plate.py -> /home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages/ur5_control
+[1.273s] byte-compiling /home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages/ur5_control/task1b_boiler_plate.py to task1b_boiler_plate.cpython-310.pyc
+[1.276s]   File "/home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages/ur5_control/task1b_boiler_plate.py", line 470
+[1.276s]     elif angle<0.5 && angle>-0.5:
+[1.276s]                     ^
+[1.276s] SyntaxError: invalid syntax
+[1.276s] 
+[1.276s] running install_data
+[1.276s] running install_egg_info
+[1.278s] removing '/home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.278s] Copying ../../build/ur5_control/ur5_control.egg-info to /home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages/ur5_control-0.0.0-py3.10.egg-info
+[1.279s] running install_scripts
+[1.299s] Installing task1b script to /home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/ur5_control
+[1.299s] writing list of installed files to '/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/install.log'
+[1.336s] Invoked command in '/home/ojasvi/Desktop/eYRC2024LogisticCobot/src/ur5_control' returned '0': PYTHONPATH=/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ur5_control build --build-base /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/build install --record /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/ur5_control/install.log --single-version-externally-managed install_data
