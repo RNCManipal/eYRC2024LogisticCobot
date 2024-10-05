@@ -1,4 +1,0 @@
-Invoking command in '/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse -- -j12 -l12
-Invoked command in '/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse -- -j12 -l12
-Invoking command in '/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse
-Invoked command in '/home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/Desktop/eYRC2024LogisticCobot/build/eyantra_warehouse

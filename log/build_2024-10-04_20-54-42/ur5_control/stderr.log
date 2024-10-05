@@ -1,5 +1,0 @@
-  File "/home/ojasvi/Desktop/eYRC2024LogisticCobot/install/ur5_control/lib/python3.10/site-packages/ur5_control/task1b_boiler_plate.py", line 470
-    elif angle<0.5 && angle>-0.5:
-                    ^
-SyntaxError: invalid syntax
-
