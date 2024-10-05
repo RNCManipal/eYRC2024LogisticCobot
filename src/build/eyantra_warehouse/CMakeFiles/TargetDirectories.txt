@@ -1,9 +1,0 @@
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/uninstall.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/eyantra_warehouse_uninstall.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/test.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/edit_cache.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/rebuild_cache.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/list_install_components.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/install.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/install/local.dir
-/home/ojasvi/colcon_ws2/src/build/eyantra_warehouse/CMakeFiles/install/strip.dir

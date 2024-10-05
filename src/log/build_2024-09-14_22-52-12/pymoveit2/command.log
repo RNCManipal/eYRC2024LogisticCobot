@@ -1,6 +1,0 @@
-Invoking command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/pymoveit2
-Invoked command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ojasvi/colcon_ws2/src/pymoveit2 -DCMAKE_INSTALL_PREFIX=/home/ojasvi/colcon_ws2/src/install/pymoveit2
-Invoking command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/pymoveit2 -- -j12 -l12
-Invoked command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ojasvi/colcon_ws2/src/build/pymoveit2 -- -j12 -l12
-Invoking command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/pymoveit2
-Invoked command in '/home/ojasvi/colcon_ws2/src/build/pymoveit2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ojasvi/colcon_ws2/src/build/pymoveit2
